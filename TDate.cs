@@ -97,4 +97,28 @@ class TDate {
         Month = month;
         Day = day;
     }
+
+    public void AddDays(uint days) {
+        Day += days;
+    }
+
+    public void SubtractDays(uint days) {
+        Day -= days;
+    }
+
+    public void AddMonths(uint months) {
+        Month += month;
+    }
+
+    public void SubtractMonths(uint months) {
+        Month -= month;
+    }
+
+    public void AddYears(uint years) {
+        Year += years;
+    }
+
+    public void SubtractYear(uint years) {
+        Year -= years;
+    }
 }
